@@ -37,7 +37,7 @@ const NavBar = ({ authStore }) => {
   return (
     <div className={classes.navbar}>
       <div className={classes.header}>
-        <h1 style={{ fontSize: 14, color: 'white' }}>THE AUCTION HOUSE</h1>
+        <h1 style={{ fontSize: 14, color: 'white' }}>THE AUCTION HOUSE!</h1>
       </div>
       <div className={classes.loginLogoutContainer}>
         {!isAuthenticated && (
